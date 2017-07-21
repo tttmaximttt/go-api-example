@@ -1,0 +1,10 @@
+FROM alpine
+MAINTAINER Maksym Radko
+
+ENV SOURCES /app/api/
+COPY ./app ${SOURCES}
+
+ENV PORT 8080
+EXPOSE 8080
+
+ENTRYPOINT ${SOURCES}/app
