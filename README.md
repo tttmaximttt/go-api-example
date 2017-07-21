@@ -1,2 +1,2 @@
 # go-api-example
-Go api example with docker and kubernetis.
+Go api example with docker and kubernetes.
